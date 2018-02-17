@@ -1,8 +1,15 @@
 /* font-family: 'Teko', sans-serif; - underdelicious font */
 /* css: font-family: 'Courgette', cursive; */
-html {
-  width: 902px;
+
+* {
+  align-content: center;
 }
+
+body {
+  width: 902px;
+  margin: auto;
+}
+
 header img {
   margin-top: 30px;
   float: left;
@@ -13,7 +20,7 @@ header li {
 }
 header {
   height: 105px;
-  border: 3px dashed orange;
+  border: 3px dashed white;
 }
 header h1 {
   font-family: 'Courgette', cursive;
@@ -34,4 +41,67 @@ header p {
   height: 6px;
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
   border: 0;
+}
+
+main h1 {
+  font-family: 'Francois One', sans-serif;
+  margin-bottom: 0px;
+}
+
+.bodyp {
+  text-indent: 3em;
+}
+
+section {
+  background: url(../img/list-bg.png);
+  height: 300px;
+  columns: 2 auto;
+}
+
+section li {
+  padding-top: 12px;
+}
+
+section ul {
+  padding: 30px;
+  padding-top:12px;
+}
+
+.tinytext {
+  font-size: .5em;
+  margin-top: 2px;
+}
+
+main div {
+  float: right; 
+}
+
+button {
+  color: white;
+  background-color: red;
+  float: right;
+}
+
+footer img {
+  float: left;
+}
+
+footer h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 75px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+footer p {
+  margin-left: 80px;
+  margin-top: 3px;
+  width: 50%;
+}
+
+#graylogo {
+  margin: auto;
 }
